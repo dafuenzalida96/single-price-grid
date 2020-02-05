@@ -130,8 +130,58 @@ body {
         }
     }
 
-
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: $grayishBlue; }
+    .attribution a { color: $grayishBlue; }  
 
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    body {
+        .container {
+                margin: 10rem 23rem 10rem 23rem;
+                display: grid;
+                grid-template-rows: auto auto;
+                grid-template-columns: auto auto;
+                grid-gap: 0;
+            
+                .topBox {
+                    grid-row: 1;
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                    padding: 3rem;
+
+                    p {
+                        width: 80%;
+                    }
+                }
+
+                .middleBox {
+                    grid-row: 2;
+                    margin-right: 0;
+                    margin-left: 3.1rem;
+                    padding: 3rem;
+                    border-bottom-left-radius: 0.5rem;
+                    button {
+                        margin-right: -10rem;
+                    }
+                    button:hover {
+                        background-color: $lightGray;
+                        color: $cyan;
+                    }
+                }
+
+                .bottomBox {
+                    grid-row: 2;
+                    margin-right: 3.1rem;
+                    margin-left: 0;
+                    padding: 3rem;
+                    border-bottom-left-radius: 0rem;
+                    box-shadow: 0.6rem 0.6rem 1rem -0.1rem #d2dbe3;
+                }
+            
+        }
+    }
+    
 }
