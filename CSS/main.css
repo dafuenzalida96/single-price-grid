@@ -1,0 +1,133 @@
+body {
+  background-color: #e5eff5;
+  font-family: "Karla", sans-serif;
+}
+
+body .container {
+  margin-bottom: 3rem;
+}
+
+body .container .topBox {
+  background-color: white;
+  padding: 15px 25px 15px 25px;
+  margin: 60px 50px 0 50px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  -webkit-box-shadow: 0 0.3rem 1rem 0 #d2dbe3;
+          box-shadow: 0 0.3rem 1rem 0 #d2dbe3;
+}
+
+body .container .topBox h1 {
+  color: #2ab2af;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  margin: 10px;
+}
+
+body .container .topBox h2 {
+  color: #c0df34;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+
+body .container .topBox p {
+  color: #98a6bd;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: lighter;
+  margin: 10px;
+}
+
+body .container .middleBox {
+  background-color: #2ab2af;
+  padding: 15px 50px 15px 25px;
+  margin: 0px 50px 0 50px;
+  -webkit-box-shadow: -0.3rem 0.3rem 0.5rem 0.1rem #d2dbe3;
+          box-shadow: -0.3rem 0.3rem 0.5rem 0.1rem #d2dbe3;
+}
+
+body .container .middleBox h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+
+body .container .middleBox h3 {
+  color: #e5eff5;
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 10px;
+  margin: 10px;
+  display: inline;
+}
+
+body .container .middleBox h4 {
+  color: rgba(255, 255, 255, 0.514);
+  font-size: 16px;
+  display: inline;
+  font-weight: lighter;
+}
+
+body .container .middleBox button {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #c0df34;
+  margin: 20px 10px 20px 10px;
+  padding: 1rem 5.7rem;
+  border-radius: 0.4rem;
+  border-style: none;
+  width: 100%;
+  -webkit-box-shadow: 0.3rem 0.3rem 1rem 0.1rem #26a29f;
+          box-shadow: 0.3rem 0.3rem 1rem 0.1rem #26a29f;
+}
+
+body .container .middleBox p {
+  color: #e5eff5;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 10px;
+}
+
+body .container .bottomBox {
+  background-color: #4ac4c2;
+  padding: 15px 25px 15px 25px;
+  margin: 0px 50px 0 50px;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  -webkit-box-shadow: 0.2rem 3.7rem 2rem 0.5rem #d2dbe3;
+          box-shadow: 0.2rem 3.7rem 2rem 0.5rem #d2dbe3;
+}
+
+body .container .bottomBox h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+
+body .container .bottomBox ul {
+  color: rgba(255, 255, 255, 0.644);
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: lighter;
+  margin: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+body .attribution a {
+  color: #98a6bd;
+}
+/*# sourceMappingURL=main.css.map */
